@@ -485,13 +485,13 @@ def main(argv):
         test_epoch(test_dataloader, net, rdcriterion, taskcriterion,predictor, evaluator)
         return
 
-    best_loss = validation_epoch(-1, val_dataloader, net, rdcriterion, taskcriterion, args.VPT_lmbda)
+    best_loss = validation_epoch(-1, val_dataloader, net, rdcriterion, taskcriterion, args.task_lmbda)
     tqrange = tqdm.trange(last_epoch, args.epochs)
     for epoch in tqrange:
         print('/')
         print('Epoch:',epoch)
-        train_one_epoch(train_dataloader, optimizer, net, rdcriterion, taskcriterion, args.VPT_lmbda)
-        loss = validation_epoch(epoch, val_dataloader, net, rdcriterion, taskcriterion, args.VPT_lmbda)
+        train_one_epoch(train_dataloader, optimizer, net, rdcriterion, taskcriterion, args.task_lmbda)
+        loss = validation_epoch(epoch, val_dataloader, net, rdcriterion, taskcriterion, args.task_lmbda)
         lr_scheduler.step()
 
         is_best = loss < best_loss
