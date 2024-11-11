@@ -50,7 +50,10 @@ Add argument `-T` for evaluation.
 |:---------------------:|-------|-------|-------|-------|
 |     Base codec (TIC)  | [1](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_1.pth.tar) | [2](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_2.pth.tar) | [3](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_3.pth.tar) | [4](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_4.pth.tar) |
 
+## TODO
 
+- [ ] Release the Pre-trained Weights for TIC-SFMA, mbt2018mean-SFMA, cheng2020anchor-SFMA
+- [ ] Add the code for mbt2018mean and cheng2020anchor
 ## Citation
 If you find our project useful, please cite the following paper.
 ```
