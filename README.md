@@ -11,10 +11,9 @@ The proposed adapter is plug-and-play and compatible with almost all existing le
 
 ```bash
 git clone https://github.com/qingshi9974/ECCV2024-AdpatICMH
-cd ECCV2024-AdpatICMH
+pip install compressai
 pip install timm tqdm click
 ```
-Install [CompressAI](https://github.com/InterDigitalInc/CompressAI) 
 
 Install [Detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) for object detection and instance segementation.
 
