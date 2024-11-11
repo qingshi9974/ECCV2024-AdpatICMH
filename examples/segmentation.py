@@ -384,18 +384,7 @@ def parse_args(argv):
         parser.set_defaults(**yaml_data)
 
     parser.add_argument("-T", "--TEST", action='store_true', help='Testing')
-    parser.add_argument(
-        "--gpu_id",
-        type=int,
-        default="0",
-        help="Path to config file",
-    )
-    parser.add_argument(
-        "--quality_level",
-        type=int,
-        default="1",
-        help="Path to config file",
-    )
+
     args = parser.parse_args(remaining)
     
     return args
