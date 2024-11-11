@@ -1,0 +1,22 @@
+root: "LOG_PATH"
+exp_name: "exp"
+model: "tic_sfma"
+dataset: "coco"
+dataset_path: "/coco2017"
+fastrcnn_path: "./codec_ckpt/model_final_280758.pkl"
+checkpoint: "./codec_ckpt/base_codec_4.pth.tar"
+epochs: 40
+learning_rate: 1.e-4
+gpu_id: 2
+quality_level: 4 # {1,2,3,4}
+task_lmbda: 50 # {5, 10, 20, 50}
+num_workers: 16
+batch_size: 8
+test_batch_size: 1
+aux_learning_rate: 1.e-3
+patch_size: 256
+cuda: True
+save: True
+clip_max_norm: 1.0
+seed: 42
+
