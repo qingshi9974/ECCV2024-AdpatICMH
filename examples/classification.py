@@ -369,7 +369,7 @@ def main(argv):
 
     optimizer = configure_optimizers(net, args)
     lr_scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[40,80], gamma=0.5)
-    rdcriterion = RateDistortionLoss(lmbda=args.lmbda)
+    rdcriterion = RateDistortionLoss(lmbda=args.task_lmbda)
     clscriterion = Clsloss(device, True)
 
     last_epoch = 0
