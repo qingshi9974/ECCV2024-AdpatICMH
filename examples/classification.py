@@ -368,7 +368,7 @@ def main(argv):
     print('tuning paramaters:',sum(p.numel() for p in net.parameters() if p.requires_grad)/1e6)
 
     optimizer = configure_optimizers(net, args)
-    lr_scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[40,80], gamma=0.5)
+    lr_scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[80,100], gamma=0.5)
     rdcriterion = RateDistortionLoss()
     clscriterion = Clsloss(device, True)
 
