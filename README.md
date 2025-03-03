@@ -49,7 +49,8 @@ Add argument `-T` for evaluation.
 |         Tasks         |       |       |       |       |
 |:---------------------:|-------|-------|-------|-------|
 |     Base codec   | [1](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_1.pth.tar) | [2](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_2.pth.tar) | [3](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_3.pth.tar) | [4](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_4.pth.tar) |
-|     Classification  |      |       |       |       |
+|     Classification  |      |       |     [3](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_cls_level3.tar)    |   [4](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_cls_level4.tar)    |
+
 |     Detection  |   [1](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_det_level1.tar)   |   [2](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_det_level2.tar)    |   [3](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_det_level3.tar)   |    [4](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_det_level4.tar)   |
 |     Segmentation  | [1](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_seg_level1.pth.tar)     |   [2](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_seg_level2.pth.tar)    |   [3](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_seg_level3.pth.tar)    |   [4](https://github.com/qingshi9974/ECCV2024-AdpatICMH/releases/download/v1.0/ckpt_seg_level4.pth.tar)    |
 
