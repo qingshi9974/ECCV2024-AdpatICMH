@@ -55,7 +55,7 @@ Add argument `-T` for evaluation.
 
 ## TODO
 
-- [ ] Release the Pre-trained Weights for TIC-SFMA, mbt2018mean-SFMA, cheng2020anchor-SFMA
+- [ ] Release the Pre-trained Weights for mbt2018mean-SFMA, cheng2020anchor-SFMA
 - [ ] Add the code for mbt2018mean and cheng2020anchor
 ## Citation
 If you find our project useful, please cite the following paper.
