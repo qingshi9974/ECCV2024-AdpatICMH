@@ -45,7 +45,7 @@ Add argument `-T` for evaluation.
 `python examples/segmentation.py -c config/segmentation.yaml`<br>
 Add argument `-T` for evaluation.
 
-## Pre-trained Weights for TIC
+## Pre-trained Weights for TIC-SFMA
 |         Tasks         |       |       |       |       |
 |:---------------------:|-------|-------|-------|-------|
 |     Base codec   | [1](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_1.pth.tar) | [2](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_2.pth.tar) | [3](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_3.pth.tar) | [4](https://github.com/NYCU-MAPL/TransTIC/releases/download/v1.0/base_codec_4.pth.tar) |
